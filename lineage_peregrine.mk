@@ -8,5 +8,6 @@ PRODUCT_NAME := lineage_peregrine
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-# LineageOS turns adb root off in userdebug; keep it for bring-up
-PRODUCT_NOT_DEBUGGABLE_IN_USERDEBUG := false
+# LineageOS turns adb root off in userdebug; keep it for bring-up (empty,
+# as the build reads any non-empty value as true)
+PRODUCT_NOT_DEBUGGABLE_IN_USERDEBUG :=
